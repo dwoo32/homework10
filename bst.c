@@ -411,13 +411,13 @@ void push(Node* aNode)//스택에 삽입
 }
 
 
-void printStack()//
+void printStack()
 {
 	int i = 0;
 	printf("--- stack ---\n");
-	while(i <= top)//
+	while(i <= top)//i가 top보다 작거나 같을 동안
 	{
-		printf("stack[%d] = %d\n", i, stack[i]->key);
+		printf("stack[%d] = %d\n", i, stack[i]->key);//stack에 저장된 값 출력
 	}
 }
 
