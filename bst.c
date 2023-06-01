@@ -411,7 +411,7 @@ void push(Node* aNode)//스택에 삽입
 }
 
 
-void printStack()
+void printStack()//while문에서 무한반복 될 가능성이 있음
 {
 	int i = 0;
 	printf("--- stack ---\n");
